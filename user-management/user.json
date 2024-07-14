@@ -1,0 +1,68 @@
+{
+    "id": "",
+    "username": "bhuvanraj ",
+    "email": "bhuvanraj@gmail.com",
+    "handle": "bhuvarajt",
+    "firstName": "Bhuvan",
+    "lastName": "Raj",
+    "profile": "user",
+    "status": "ACTIVE",
+    "mobileNumber": "1234567890",
+    "images": [{
+        "url": "http://localhost:8080/user/images/1",
+        "type": "PROFILE"
+    }],
+    "media": [{
+        "url": "http://localhost:8080/user/media/1",
+        "type": "VIDEO"
+    }],
+    "address": {
+        "addressLine1": "123, 4th Main",
+        "addressLine2": "5th Cross",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "zipCode": "560001"
+    },
+    "settings": {
+        "notification": {
+            "email": true,
+            "sms": true,
+            "push": true
+        },
+        "privacy": {
+            "profile": "PUBLIC",
+            "activity": "PRIVATE"
+        }
+    },
+    "preferences": {
+        "language": "en",
+        "timezone": "Asia/Kolkata",
+        "currency": "INR"
+    },
+    "social": {
+        "facebook": "https://www.facebook.com/bhuvanraj",
+        "twitter": "https://www.twitter.com/bhuvanraj",
+        "linkedin": "https://www.linkedin.com/bhuvanraj"
+    },
+    "dob": "09-10-1978", // dd-MM-yyyy
+    "gender": "male",
+    "bio": "I am a software engineer",
+    "interests": ["music", "sports", "travel"],
+    "skills": ["java", "spring", "hibernate"],
+    "education": [{
+        "degree": "B.Tech",
+        "specialization": "Computer Science",
+        "university": "VTU",
+        "year": 2000
+    }],
+    "grade": "5",
+
+    "createdOn": "2018-01-01T12:00:00Z",
+    "updatedOn": "2018-01-01T12:00:00Z",
+    "createdBy": "admin",
+    "updatedBy": "admin"
+
+
+
+}

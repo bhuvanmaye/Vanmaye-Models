@@ -1,0 +1,23 @@
+{
+    "id": "1",
+    "name": "apps",
+    "version": "1.0.0",
+    "description": "Apps configuration",
+    "status": "ACTIVE",
+    "profile": "apps",
+    "settings": {
+        "bookingCutoffType": "OPENING_TIME",
+        "confirmationType": "INSTANT_THEN_MANUAL",
+        "bookingCutoffInMinutes": 720,
+        "manualConfirmationPeriod": 120
+    },
+    "url": "http://localhost:8080/apps",
+    "images": [{
+        "url": "http://localhost:8080/apps/images/1",
+        "type": "LOGO"
+    }],
+    "thumnailImage": "http://localhost:8080/apps/thumbnail/1",
+    "integration": { "type": "REST", "url": "http://localhost:8080/apps/integration/1" },
+    "menu": { "type": "REST", "url": "http://localhost:8080/apps/menu/1" }
+
+}
